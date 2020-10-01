@@ -37,7 +37,7 @@
 21. Plotting grand-average surface source activities on 3D brain model: "PlotGrandAveSourceData.py"
 22. Making plots of vertices on 3D brain surface: "PlotVertices_onBrainSurf.py"
 
-<Source Statistical Analysis>
+<Source Statistical Analysis]
 23. Repeated measures 2-way ANOVA with a permutation test procedure and TFCE: "ClusterPermTest_2wayANOVA.py"
 24. Plotting 2-way ANOVA results on 3D brain surface: "Plot2wayANOVAresults_onBrainSurf.py"
 25. Plotting 2-way ANOVA results with source waveforms: "Plot2wayANOVAresults_withWaveforms.py"
