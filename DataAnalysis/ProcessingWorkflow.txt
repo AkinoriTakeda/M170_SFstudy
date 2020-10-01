@@ -33,3 +33,17 @@ SOURCE RECONSTRUCTION
 20. Creating grand-average datasets: "MakeGrandAveData_forSourceAnalysis.py"
 21. Plotting grand-average surface source activities on 3D brain model: "PlotGrandAveSourceData.py"
 22. Making plots of vertices on 3D brain surface: "PlotVertices_onBrainSurf.py"
+
+SOURCE STATISTICAL ANALYSIS
+23. Repeated measures 2-way ANOVA with a permutation test procedure and TFCE: "ClusterPermTest_2wayANOVA.py"
+24. Plotting 2-way ANOVA results on 3D brain surface: "Plot2wayANOVAresults_onBrainSurf.py"
+25. Plotting 2-way ANOVA results with source waveforms: "Plot2wayANOVAresults_withWaveforms.py"
+26. 1-way ANOVA with a permutation test procedure and TFCE: "ClusterPermTest_1wayANOVA.py"
+27. Plotting 1-way ANOVA results on 3D brain surface: "Plot1wayANOVAresults_onBrainSurf.py"
+28. Plotting 1-way ANOVA results with source waveforms: "Plot1wayANOVAresults_withWaveforms.py"
+29. Creating mask data for subsequent post hoc paired tests: "MakeMasks_forPosthocPairedTests.py"
+30. Post hoc paired tests: "PosthocPairedTests.py"
+31. Plotting results of post hoc paired tests on 3D brain surface: "PlotPosthocTestsResults_onBrainSurf.py"
+32. Statistical analysis (Within-trial comparisons): "ClusterPermTest_WithinTrialComparisons.py"
+33. Plotting results of within-trial comparisons on 3D brain surface: "PlotWithinTrialCompResults_onBrainSurf.py"
+34. Plotting results of within-trial comparisons with source waveforms: "PlotWithinTrialCompResults_withWaveforms.py"
