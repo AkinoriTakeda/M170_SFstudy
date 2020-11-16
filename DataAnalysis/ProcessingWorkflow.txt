@@ -1,4 +1,4 @@
-<Processing Workflow and Scripts used>
+<Processing Workflow and Scripts Used>
 [Digital Image Processing]
 1. Adjustment of mean luminance of BSF images: "MakeColorBSFpics.m"
 2. Creating spatially-filtered chromatic images: "ImageFiltering_butterworth.m"
