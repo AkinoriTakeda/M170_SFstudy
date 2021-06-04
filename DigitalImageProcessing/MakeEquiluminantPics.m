@@ -68,6 +68,14 @@ for n=1:max(size(ImgsSet))
     while flag~=0
         %- process -%
         pic=rgb2ycbcr(im);
+        
+        % [Note (added on June 4, 2021)]
+        % In this script, YCbCr images are newly obtained in every iteration (line 70).
+        % However, I now realize that this procedure is not essential because the Cb and Cr components
+        % do never change, and thus that obtaining them once is sufficient.
+        % Indeed, I confirmed that repeating the transformation between the RGB and YCbCr color spaces
+        % and replacing the luminance dimension for the same image can also create identical products.
+        
         pic(:,:,1)=template(:,:);
         pic_backed=uint8(round(ycbcr2rgb(pic)*255));
         
