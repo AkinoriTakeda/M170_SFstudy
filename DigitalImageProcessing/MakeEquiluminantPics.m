@@ -84,7 +84,7 @@ for n=1:max(size(ImgsSet))
         graypic=double(rgb2gray(pic_backed));
         for m=1:size(graypic,1)
             for l=1:size(graypic,2)
-                diff=104-graypic(m,l); % Please change '104' to your target luminance value.
+                diff=104-graypic(m,l); % Please change '104' to your target luminance value
                 template(m,l)=template(m,l)+(diff/255)*0.1;
 
                 if diff~=0
