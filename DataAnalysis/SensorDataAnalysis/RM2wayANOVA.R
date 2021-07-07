@@ -1,4 +1,7 @@
 setwd("")
+
+# [Note added in 2021/07/07]
+# For statistical analysis, I used anovakun (http://riseki.php.xdomain.jp/index.php?ANOVA%E5%90%9B).
 source('anovakun_483.txt')
 
 dat <- read.csv('./Dataset_PeakLatency.csv', header = F)
