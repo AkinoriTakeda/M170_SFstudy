@@ -3,3 +3,6 @@ They were used in an MEG study focusing on the combinational effects of face col
 
 Paper is now published in NeuroImage (you can read [here](https://doi.org/10.1016/j.neuroimage.2021.118325)).
 > A. Takeda, E. Yamada, T. Uehara et al. Data-point-wise spatiotemporal mapping of human ventral visual areas: Use of spatial frequency/luminance-modulated chromatic faces. 2021, NeuroImage.
+
+Scripts for image processing are stored in the "DigitalImageProcessing" directory, and those for MEG data processing and data visualization are in the "DataAnalysis" directory.
+Processing flow and script names used in each processing step are described in "ProcessingWorkflow.txt" in the "DataAnalysis" directory.
