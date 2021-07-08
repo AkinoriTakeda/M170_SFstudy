@@ -6,4 +6,4 @@ Paper is now published in NeuroImage (you can read [here](https://doi.org/10.101
 
 Scripts for image processing are stored in the *DigitalImageProcessing* directory, and those for MEG data processing and data visualization are in the *DataAnalysis* directory.
 
-Processing flow and scripts' names used in each processing step are described in "ProcessingWorkflow.txt" in the *DataAnalysis* directory.
+Processing flow and the names of scripts used in each processing step are described in "ProcessingWorkflow.txt" in the *DataAnalysis* directory.
