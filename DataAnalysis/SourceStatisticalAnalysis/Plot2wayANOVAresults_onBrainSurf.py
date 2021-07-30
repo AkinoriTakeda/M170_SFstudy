@@ -89,7 +89,8 @@ for ef in effects:
     
     # colormap setting
     Pv = locVal['Pval_'+ef] < alphaP
-    kwargs = dict(colormap='hot', clim=dict(kind='value', lims=[0, locVal['scores_'+ef][Pv].min(), locVal['Fobs_'+ef].max()]))
+    kwargs = dict(colormap='hot', clim=dict(kind='value', lims=[0, locVal['scores_'+ef][Pv].min(), locVal['scores_'+ef].max()]))
+    # [Note added in 2021/07/30] My colleague pointed out that the name of a variable in line 92 was wrong, and thus I fixed that.
     
     # plot
     for t in pltTimes:
